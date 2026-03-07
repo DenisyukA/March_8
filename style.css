@@ -106,6 +106,22 @@ body::before {
 
 .line { margin-bottom: 4px; white-space: pre-wrap; word-break: break-all; }
 
+.hint {
+    font-size: 0.6rem;
+    color: var(--glow);
+    opacity: 0.6;
+    margin-top: 15px;
+    animation: pulse 2s infinite;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+@keyframes pulse {
+    0% { opacity: 0.2; }
+    50% { opacity: 0.8; }
+    100% { opacity: 0.2; }
+}
+
 .switches {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
