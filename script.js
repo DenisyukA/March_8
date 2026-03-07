@@ -46,7 +46,10 @@ async function runBoot() {
 function update() {
     if (!pwr.checked) {
         glass.classList.remove('on', 'on-flicker');
-        consoleBox.innerHTML = "";
+        consoleBox.innerHTML = `
+            <div class="line">SYSTEM STATUS: OFFLINE</div>
+            <div class="hint">УВІМКНИ ЖИВЛЕННЯ (PWR), ЩОБ ПОЧАТИ</div>
+        `;
         return;
     }
 
