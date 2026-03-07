@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PENTAGON_LBP_V4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="device">
+    <div class="screw s-tl"></div><div class="screw s-tr"></div>
+    <div class="screw s-bl"></div><div class="screw s-br"></div>
+    
+    <div class="header-label">
+        PENTAGON_ELECTRONICS // MOD: SAF-2026
+    </div>
+
+    <div class="monitor-frame">
+        <div class="monitor-glass" id="glass">
+            <div id="console"></div>
+        </div>
+    </div>
+
+    <div class="switches">
+        <div class="sw-group">
+            <label class="toggle"><input type="checkbox" id="pwr-sw"><span class="lever"></span></label>
+            <span class="sw-label">PWR</span>
+        </div>
+        <div class="sw-group">
+            <label class="toggle"><input type="checkbox" id="logic-sw"><span class="lever"></span></label>
+            <span class="sw-label">LOGIC</span>
+        </div>
+        <div class="sw-group">
+            <label class="toggle"><input type="checkbox" id="sync-sw"><span class="lever"></span></label>
+            <span class="sw-label">SYNC</span>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
