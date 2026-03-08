@@ -25,8 +25,8 @@ body::before {
     width: 200%; height: 200%;
     top: -50%; left: -50%;
     background-image: 
-        linear-gradient(rgba(0, 255, 65, 0.03) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(0, 255, 65, 0.03) 1px, transparent 1px);
+        linear-gradient(rgba(0, 255, 65, 0.1) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0, 255, 65, 0.1) 1px, transparent 1px);
     background-size: 60px 60px;
     transform: rotateX(60deg) translateY(0);
     animation: gridMove 30s linear infinite;
